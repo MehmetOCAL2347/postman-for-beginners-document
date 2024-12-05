@@ -40,4 +40,6 @@ Check out my Udemy course to learn more about [Java Selenium]:
 
 ## My Website 🌐  
 Visit my website to explore more about my work and projects:  
-[![Website](https://img.shields.io/badge/Website-Visit-4CAF50?style=flat-square&logo=google-chrome)](https://mehmetocal.netlify.app/){:target="_blank"}
+<a href="https://mehmetocal.netlify.app/" target="_blank">
+  ![Website](https://img.shields.io/badge/Website-Visit-4CAF50?style=flat-square&logo=google-chrome)
+</a>
