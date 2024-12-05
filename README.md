@@ -25,3 +25,7 @@ Access the API here:
 ## LinkedIn Profile 🔗
 Connect with me on LinkedIn to learn more about my projects and professional background:  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/mehmet%C3%B6cal/) 
+
+## Medium Profile 🔗
+Connect with me on Medium to learn more about my projects and professional background:  
+[![Medium]](https://medium.com/@ocal.mehmet/)
