@@ -10,15 +10,19 @@ Most endpoints require an API key or token.
 
 ## Endpoints
 
-### 1. **Get All Users**
-- **URL**: `/users`
+### 1. **Get All Courses**
+- **URL**: `/courses`
 - **Method**: `GET`
-- **Description**: Retrieves a list of all users.
+- **Description**: Retrieves a list of all courses.
 - **Query Parameters**:
-  | Parameter | Type   | Required | Description          |
-  |-----------|--------|----------|----------------------|
-  | `page`    | `int`  | No       | Page number for pagination. |
-  | `limit`   | `int`  | No       | Number of users per page.   |
+  | Parameter            | Type         | Required | Description                                                                                                        |
+  |----------------------|--------------|----------|--------------------------------------------------------------------------------------------------------------------|
+  | `instructor`         | `string`     | No       | Get udemy demo courses with the of Course Instructor |
+  | `isActive`           | `boolean`    | No       | Number of users per page.                                                                                          |
+  | `language`           | `string`     | No       | Number of users per page.                                                                                          |
+  | `starPoint`          | `double`     | No       | Number of users per page.                                                                                          |
+  | `minPriceValue`      | `double`     | No       | Number of users per page.                                                                                          |
+  | `maxPriceValue`      | `double`     | No       | Number of users per page.                                                                                          |
 
 - **Example Request**:
   ```http
