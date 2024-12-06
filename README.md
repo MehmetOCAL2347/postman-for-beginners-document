@@ -21,6 +21,10 @@ Follow the steps below to start testing this API with Postman:
 Access the API here:  
 **[https://postman-mehmetocal.duckdns.org/](https://postman-mehmetocal.duckdns.org/)**  
 
+## Postman API Endpoints Documentation 🌐
+Postman API Endpoints Documentation:
+**[Postman API Endpoints Documentation](https://github.com/MehmetOCAL2347/postman-for-beginners-document/blob/master/postman-for-beginners-api.md)**
+
 
 ## LinkedIn Profile 🔗
 Connect with me on LinkedIn to learn more about my projects and professional background:  
