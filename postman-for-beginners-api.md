@@ -7,7 +7,7 @@ You can access easily with the URL below for welcome page
 
 ## Endpoints ##
 
-- [Welcome Page] (#Welcome-Page)
+- [Welcome-Page] (#Welcome-Page)
 
 
 # Welcome-Page
