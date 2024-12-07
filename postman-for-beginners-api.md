@@ -84,3 +84,40 @@ Most endpoints require an API key or token.
     "accessToken": "asdfasdfasdfasdfa.asdfasdfasdfasdf.asdfasdf-asdfasdf-ML6aHd7dhRjwn-asdfasdf-asdfasdf-asfdasdf-asdfasdf"
   }
   ```
+
+
+
+  ### 4. **Login**
+- **URL**: `/auth/login`
+- **Method**: `POST`
+- **Description**: Login with an exist user with username and password.
+- **Body**:
+
+    | Parameter      | Type     | Required | Description                                                   |
+    |----------------|----------|----------|---------------------------------------------------------------|
+    | `email`   | `string` | Yes       | User email adress for login              |
+    | `password`   | `string` | Yes       | User password for login              |
+
+- **Example Request**:
+  ```http
+  POST /auth/login
+  Host: https://postman-mehmetocal.duckdns.org/
+  Authorization: No Auth Required
+
+- **Example request body**:
+
+  ```
+  {
+    "email": "example@gmail.com",
+    "password": "example123"
+  }
+  ```
+
+- **Example response**:
+
+  ```
+  {
+    "message": "Giriş başarılı.",
+    "accessToken": "asdfasdfasdfasdfa.asdfasdfasdfasdf.asdfasdf-asdfasdf-ML6aHd7dhRjwn-asdfasdf-asdfasdf-asfdasdf-asdfasdf"
+  }
+  ```
