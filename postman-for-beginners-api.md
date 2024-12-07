@@ -47,3 +47,31 @@ Most endpoints require an API key or token.
   GET /courses/courseDetail/UDEMY_COURSE_00000002
   Host: https://postman-mehmetocal.duckdns.org/
   Authorization: No Auth Required
+
+
+
+### 3. **Register**
+- **URL**: `/auth/register`
+- **Method**: `POST`
+- **Description**: Create a new user with username and password.
+- **Body**:
+
+    | Parameter      | Type     | Required | Description                                                   |
+    |----------------|----------|----------|---------------------------------------------------------------|
+    | `email`   | `string` | Yes       | User email adress for registration              |
+    | `password`   | `string` | Yes       | User password for registration              |
+
+- **Example Request**:
+  ```http
+  POST /auth/register
+  Host: https://postman-mehmetocal.duckdns.org/
+  Authorization: No Auth Required
+
+- **Example request body**:
+
+  ```
+  {
+    "email": "example@gmail.com",
+    "password": "example123"
+  }
+  ```
