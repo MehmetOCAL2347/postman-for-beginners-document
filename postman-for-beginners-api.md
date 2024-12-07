@@ -30,3 +30,20 @@ Most endpoints require an API key or token.
   GET /courses?instructor=Mehmet%20ÖCAL&isActive=true&language=Java&starPoint=4.2&minPriceValue=150&maxPriceValue=299.9
   Host: https://postman-mehmetocal.duckdns.org/
   Authorization: No Auth Required
+
+
+### 2. **Get Details Of Course**
+- **URL**: `/courses/courseDetail/`
+- **Method**: `GET`
+- **Description**: Retrieves a course with course Id.
+- **Path Variable**:
+
+    | Parameter      | Type     | Required | Description                                                   |
+    |----------------|----------|----------|---------------------------------------------------------------|
+    | `courseId`   | `string` | Yes       | Get details of any course with course Id              |
+
+- **Example Request**:
+  ```http
+  GET /courses/courseDetail/UDEMY_COURSE_00000002
+  Host: https://postman-mehmetocal.duckdns.org/
+  Authorization: No Auth Required
