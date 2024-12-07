@@ -75,3 +75,12 @@ Most endpoints require an API key or token.
     "password": "example123"
   }
   ```
+
+- **Example response**:
+
+  ```
+  {
+    "message": "Kullanıcı başarılı şekilde oluşturulmuştur.",
+    "accessToken": "asdfasdfasdfasdfa.asdfasdfasdfasdf.asdfasdf-asdfasdf-ML6aHd7dhRjwn-asdfasdf-asdfasdf-asfdasdf-asdfasdf"
+  }
+  ```
