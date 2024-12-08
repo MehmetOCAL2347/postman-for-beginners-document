@@ -72,7 +72,7 @@ This API is a demo of Udemy Courses. You can access easily with the URL here -> 
 ### 3. **Register**
 - **URL**: `/auth/register`
 - **Method**: `POST`
-- **Description**: Create a new user with username and password.
+- **Description**: Create a new user with email and password.
 - **Body**:
 
     | Parameter      | Type     | Required | Description                                                   |
@@ -111,7 +111,7 @@ This API is a demo of Udemy Courses. You can access easily with the URL here -> 
 ### 4. **Login**
 - **URL**: `/auth/login`
 - **Method**: `POST`
-- **Description**: Login with an exist user with username and password.
+- **Description**: Login with an exist user with email and password.
 - **Body**:
 
     | Parameter      | Type     | Required | Description                                                   |
@@ -156,7 +156,7 @@ This API is a demo of Udemy Courses. You can access easily with the URL here -> 
 
 - **Example Request**:
   ```http
-  GET /auth/login
+  GET /comments/getYourAllComments
   Host: https://postman-mehmetocal.duckdns.org/
   Authorization: Bearer Token
 
@@ -242,7 +242,14 @@ This API is a demo of Udemy Courses. You can access easily with the URL here -> 
   | Parameter      | Type     | Required | Description                                                   |
   |----------------|----------|----------|---------------------------------------------------------------|
   | `commentId`   | `string` | Yes       | Update comment with comment Id. |
+
+
+- **Body**:
+
+  | Parameter      | Type     | Required | Description                                                   |
+  |----------------|----------|----------|---------------------------------------------------------------|
   | `newComment`   | `string` | Yes       | New comment for exist comment. |
+  
 
 - **Example Request**:
   ```http
