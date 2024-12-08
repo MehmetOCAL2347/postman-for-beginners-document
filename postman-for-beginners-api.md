@@ -33,7 +33,7 @@ Most endpoints require an API key or token.
 
 
 ### 2. **Get Details Of Course**
-- **URL**: `/courses/courseDetail/`
+- **URL**: `/courses/courseDetail`
 - **Method**: `GET`
 - **Description**: Retrieves a course with course Id.
 - **Path Variable**:
@@ -130,7 +130,7 @@ Most endpoints require an API key or token.
 
 - **Example Request**:
   ```http
-  POST /auth/login
+  GET /auth/login
   Host: https://postman-mehmetocal.duckdns.org/
   Authorization: Bearer Token
 
@@ -159,11 +159,74 @@ Most endpoints require an API key or token.
   Host: https://postman-mehmetocal.duckdns.org/
   Authorization: Bearer Token
 
+- **Authorization**:
+
+  | Parameter      | Type     | Required | Description                                                   |
+  |----------------|----------|----------|---------------------------------------------------------------|
+  | `Authorization`   | `string` | Yes       | Specifies the bearer token of the API client. |
+
 - **Example request body**:
 
   ```
   {
     "courseId": "UDEMY_COURSE_00000002",
     "comment": "Example Comment for a course."
+  }
+  ```
+
+
+### 7. **Delete a Comment**
+- **URL**: `/comments/deleteAComment`
+- **Method**: `DELETE`
+- **Description**: Delete a comment.
+- **Path Variable**:
+
+  | Parameter      | Type     | Required | Description                                                   |
+  |----------------|----------|----------|---------------------------------------------------------------|
+  | `commentId`   | `string` | Yes       | Delete comment with comment Id. |
+
+- **Example Request**:
+  ```http
+  DELETE /comments/deleteAComment/UDC_Y7ZZTPZ6OR
+  Host: https://postman-mehmetocal.duckdns.org/
+  Authorization: Bearer Token
+
+- **Authorization**:
+
+  | Parameter      | Type     | Required | Description                                                   |
+  |----------------|----------|----------|---------------------------------------------------------------|
+  | `Authorization`   | `string` | Yes       | Specifies the bearer token of the API client. |
+
+
+
+### 8. **Update a Comment**
+- **URL**: `/comments/editComment`
+- **Method**: `PATCH`
+- **Description**: Update a comment.
+- **Path Variable**:
+
+  | Parameter      | Type     | Required | Description                                                   |
+  |----------------|----------|----------|---------------------------------------------------------------|
+  | `commentId`   | `string` | Yes       | Update comment with comment Id. |
+  | `newComment`   | `string` | Yes       | New comment for exist comment. |
+
+- **Example Request**:
+  ```http
+  PATCH /comments/editComment/UDC_Y7ZZTPZ6OR
+  Host: https://postman-mehmetocal.duckdns.org/
+  Authorization: Bearer Token
+
+- **Authorization**:
+
+  | Parameter      | Type     | Required | Description                                                   |
+  |----------------|----------|----------|---------------------------------------------------------------|
+  | `Authorization`   | `string` | Yes       | Specifies the bearer token of the API client. |
+
+
+- **Example request body**:
+
+  ```
+  {
+    "newComment": "Example new comment for exist comment."
   }
   ```
