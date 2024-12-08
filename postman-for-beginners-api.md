@@ -275,4 +275,4 @@ This API is a demo of Udemy Courses. You can access easily with the URL here -> 
 [Back to top](#endpoints)
 
 
-This documentation developed by [![Mehmet ÖCAL](https://img.shields.io/badge/LinkedIn-Profile-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/mehmet%C3%B6cal/) 
+This documentation developed by **[Mehmet ÖCAL](https://www.linkedin.com/in/mehmet%C3%B6cal/)**
