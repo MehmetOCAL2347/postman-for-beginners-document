@@ -10,14 +10,21 @@ Most endpoints require an API key or token.
 
 ## Endpoints
 
-- [Get All Courses](#1-get-all-courses)
-- [Get Details Of Course](#2-get-details-of-course)
-- [Register](#3-register)
-- [Login](#4-login)
-- [Get Your All Comments](#5-get-your-all-comments)
-- [Save New Comment](#6-save-new-comment)
-- [Delete a Comment](#7-delete-a-comment)
-- [Update a Comment](#8-update-a-comment)
+- [Courses](#courses)
+  - [Get All Courses](#1-get-all-courses)
+  - [Get Details Of Course](#2-get-details-of-course)
+
+- [Users](#users)
+  - [Register](#3-register)
+  - [Login](#4-login)
+
+- [Comments](#comments)
+  - [Get Your All Comments](#5-get-your-all-comments)
+  - [Save New Comment](#6-save-new-comment)
+  - [Delete a Comment](#7-delete-a-comment)
+  - [Update a Comment](#8-update-a-comment)
+
+## Courses**
 
 ### 1. **Get All Courses**
 
@@ -59,6 +66,7 @@ Most endpoints require an API key or token.
   Authorization: No Auth Required
 
 
+## Users**
 
 ### 3. **Register**
 - **URL**: `/auth/register`
@@ -132,6 +140,8 @@ Most endpoints require an API key or token.
   }
   ```
 
+
+## Comments**
 
 ### 5. **Get Your All Comments**
 - **URL**: `/comments/getYourAllComments`
