@@ -87,7 +87,7 @@ Most endpoints require an API key or token.
 
 
 
-  ### 4. **Login**
+### 4. **Login**
 - **URL**: `/auth/login`
 - **Method**: `POST`
 - **Description**: Login with an exist user with username and password.
@@ -121,3 +121,22 @@ Most endpoints require an API key or token.
     "accessToken": "asdfasdfasdfasdfa.asdfasdfasdfasdf.asdfasdf-asdfasdf-ML6aHd7dhRjwn-asdfasdf-asdfasdf-asfdasdf-asdfasdf"
   }
   ```
+
+
+### 5. **Get Your All Comments**
+- **URL**: `/comments/getYourAllComments`
+- **Method**: `GET`
+- **Description**: Get your all comments.
+
+- **Example Request**:
+  ```http
+  POST /auth/login
+  Host: https://postman-mehmetocal.duckdns.org/
+  Authorization: No Auth Required
+
+- **Authorization**:
+
+  | Parameter      | Type     | Required | Description                                                   |
+  |----------------|----------|----------|---------------------------------------------------------------|
+  | `Authorization`   | `string` | Yes       | Specifies the bearer token of the API client. |
+
