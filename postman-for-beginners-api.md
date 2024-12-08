@@ -24,7 +24,7 @@ Most endpoints require an API key or token.
   - [Delete a Comment](#7-delete-a-comment)
   - [Update a Comment](#8-update-a-comment)
 
-## Courses**
+## Courses
 
 ### 1. **Get All Courses**
 
@@ -48,6 +48,9 @@ Most endpoints require an API key or token.
   Host: https://postman-mehmetocal.duckdns.org/
   Authorization: No Auth Required
 
+[Back to top](#endpoints)
+
+
 
 ### 2. **Get Details Of Course**
 - **URL**: `/courses/courseDetail`
@@ -65,8 +68,11 @@ Most endpoints require an API key or token.
   Host: https://postman-mehmetocal.duckdns.org/
   Authorization: No Auth Required
 
+[Back to top](#endpoints)
 
-## Users**
+
+
+## Users
 
 ### 3. **Register**
 - **URL**: `/auth/register`
@@ -102,6 +108,8 @@ Most endpoints require an API key or token.
     "accessToken": "asdfasdfasdfasdfa.asdfasdfasdfasdf.asdfasdf-asdfasdf-ML6aHd7dhRjwn-asdfasdf-asdfasdf-asfdasdf-asdfasdf"
   }
   ```
+
+[Back to top](#endpoints)
 
 
 
@@ -140,8 +148,11 @@ Most endpoints require an API key or token.
   }
   ```
 
+[Back to top](#endpoints)
 
-## Comments**
+
+
+## Comments
 
 ### 5. **Get Your All Comments**
 - **URL**: `/comments/getYourAllComments`
@@ -159,6 +170,9 @@ Most endpoints require an API key or token.
   | Parameter      | Type     | Required | Description                                                   |
   |----------------|----------|----------|---------------------------------------------------------------|
   | `Authorization`   | `string` | Yes       | Specifies the bearer token of the API client. |
+
+
+[Back to top](#endpoints)
 
 
 
@@ -194,6 +208,8 @@ Most endpoints require an API key or token.
   }
   ```
 
+[Back to top](#endpoints)
+
 
 ### 7. **Delete a Comment**
 - **URL**: `/comments/deleteAComment`
@@ -216,6 +232,9 @@ Most endpoints require an API key or token.
   | Parameter      | Type     | Required | Description                                                   |
   |----------------|----------|----------|---------------------------------------------------------------|
   | `Authorization`   | `string` | Yes       | Specifies the bearer token of the API client. |
+
+
+[Back to top](#endpoints)
 
 
 
@@ -250,3 +269,5 @@ Most endpoints require an API key or token.
     "newComment": "Example new comment for exist comment."
   }
   ```
+
+[Back to top](#endpoints)
