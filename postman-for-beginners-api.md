@@ -10,7 +10,17 @@ Most endpoints require an API key or token.
 
 ## Endpoints
 
+- [Get All Courses](#1-get-all-courses)
+- [Get Details Of Course](#2-get-details-of-course)
+- [Register](#3-register)
+- [Login](#4-login)
+- [Get Your All Comments](#5-get-your-all-comments)
+- [Save New Comment](#6-save-new-comment)
+- [Delete a Comment](#7-delete-a-comment)
+- [Update a Comment](#8-update-a-comment)
+
 ### 1. **Get All Courses**
+
 - **URL**: `/courses`
 - **Method**: `GET`
 - **Description**: Retrieves a list of all courses.
