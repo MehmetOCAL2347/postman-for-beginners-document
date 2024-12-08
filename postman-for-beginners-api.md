@@ -132,7 +132,7 @@ Most endpoints require an API key or token.
   ```http
   POST /auth/login
   Host: https://postman-mehmetocal.duckdns.org/
-  Authorization: No Auth Required
+  Authorization: Bearer Token
 
 - **Authorization**:
 
@@ -140,3 +140,30 @@ Most endpoints require an API key or token.
   |----------------|----------|----------|---------------------------------------------------------------|
   | `Authorization`   | `string` | Yes       | Specifies the bearer token of the API client. |
 
+
+
+### 6. **Save New Comment**
+- **URL**: `/comments/saveNewComment`
+- **Method**: `POST`
+- **Description**: Save a new comment.
+- **Body**:
+
+  | Parameter      | Type     | Required | Description                                                   |
+  |----------------|----------|----------|---------------------------------------------------------------|
+  | `courseId`   | `string` | Yes       | Unique identifier of the course you wish to comment on. |
+  | `comment`   | `string` | Yes       | The text of your comment. Express your thoughts or feedback about the course |
+
+- **Example Request**:
+  ```http
+  POST /comments/saveNewComment
+  Host: https://postman-mehmetocal.duckdns.org/
+  Authorization: Bearer Token
+
+- **Example request body**:
+
+  ```
+  {
+    "courseId": "UDEMY_COURSE_00000002",
+    "comment": "Example Comment for a course."
+  }
+  ```
