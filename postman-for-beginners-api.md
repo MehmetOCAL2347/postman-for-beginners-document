@@ -1,6 +1,6 @@
 # Postman Course API End Points Documentation
 
-This API is a demo of Udemy Courses. You can access easily with the URL here -> **[https://postman-mehmetocal.duckdns.org/](https://postman-mehmetocal.duckdns.org/)** for welcome page
+This API is a demo of Udemy Courses. You can access easily with the URL here -> **[https://postman-for-beginners.onrender.com/](https://postman-for-beginners.onrender.com/)** for welcome page
 
 
 ## Endpoints
@@ -40,7 +40,7 @@ This API is a demo of Udemy Courses. You can access easily with the URL here -> 
 - **Example Request**:
   ```http
   GET /courses?instructor=Mehmet%20ÖCAL&isActive=true&language=Java&starPoint=4.2&minPriceValue=150&maxPriceValue=299.9
-  Host: https://postman-mehmetocal.duckdns.org/
+  Host: https://postman-for-beginners.onrender.com/
   Authorization: No Auth Required
 
 [Back to top](#endpoints)
@@ -60,7 +60,7 @@ This API is a demo of Udemy Courses. You can access easily with the URL here -> 
 - **Example Request**:
   ```http
   GET /courses/courseDetail/UDEMY_COURSE_00000002
-  Host: https://postman-mehmetocal.duckdns.org/
+  Host: https://postman-for-beginners.onrender.com/
   Authorization: No Auth Required
 
 [Back to top](#endpoints)
@@ -83,7 +83,7 @@ This API is a demo of Udemy Courses. You can access easily with the URL here -> 
 - **Example Request**:
   ```http
   POST /auth/register
-  Host: https://postman-mehmetocal.duckdns.org/
+  Host: https://postman-for-beginners.onrender.com/
   Authorization: No Auth Required
 
 - **Example request body**:
@@ -122,7 +122,7 @@ This API is a demo of Udemy Courses. You can access easily with the URL here -> 
 - **Example Request**:
   ```http
   POST /auth/login
-  Host: https://postman-mehmetocal.duckdns.org/
+  Host: https://postman-for-beginners.onrender.com/
   Authorization: No Auth Required
 
 - **Example request body**:
@@ -157,7 +157,7 @@ This API is a demo of Udemy Courses. You can access easily with the URL here -> 
 - **Example Request**:
   ```http
   GET /comments/getYourAllComments
-  Host: https://postman-mehmetocal.duckdns.org/
+  Host: https://postman-for-beginners.onrender.com/
   Authorization: Bearer Token
 
 - **Authorization**:
@@ -185,7 +185,7 @@ This API is a demo of Udemy Courses. You can access easily with the URL here -> 
 - **Example Request**:
   ```http
   POST /comments/saveNewComment
-  Host: https://postman-mehmetocal.duckdns.org/
+  Host: https://postman-for-beginners.onrender.com/
   Authorization: Bearer Token
 
 - **Authorization**:
@@ -219,7 +219,7 @@ This API is a demo of Udemy Courses. You can access easily with the URL here -> 
 - **Example Request**:
   ```http
   DELETE /comments/deleteAComment/UDC_Y7ZZTPZ6OR
-  Host: https://postman-mehmetocal.duckdns.org/
+  Host: https://postman-for-beginners.onrender.com/
   Authorization: Bearer Token
 
 - **Authorization**:
@@ -254,7 +254,7 @@ This API is a demo of Udemy Courses. You can access easily with the URL here -> 
 - **Example Request**:
   ```http
   PATCH /comments/editComment/UDC_Y7ZZTPZ6OR
-  Host: https://postman-mehmetocal.duckdns.org/
+  Host: https://postman-for-beginners.onrender.com/
   Authorization: Bearer Token
 
 - **Authorization**:

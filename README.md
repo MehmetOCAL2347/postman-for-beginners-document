@@ -19,7 +19,7 @@ Follow the steps below to start testing this API with Postman:
 
 ## API URL 🌐
 Access the API here:  
-**[https://postman-mehmetocal.duckdns.org/](https://postman-mehmetocal.duckdns.org/)**  
+**[https://postman-for-beginners.onrender.com/](https://postman-for-beginners.onrender.com/)**  
 
 ## Postman API Endpoints Documentation 🌐
 Postman API Endpoints Documentation:
